@@ -1,0 +1,50 @@
+
+h1 {
+    color:#155263;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+}
+
+.stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 220px;
+    background-color: #ff6f3c;
+}
+
+
+button {
+    color: #ffc93c;
+    margin: 50px;
+    padding: 30px 50px;
+    background-color: #155263;
+    font-size: 30px;
+    border-radius: 30px;
+
+}
+
+
+#myButton:hover {
+    content: "Indeed!";
+    filter: brightness(128%);
+}
+
+
+#bottom {
+    background-color: #ff6f3c; 
+    padding-bottom: 300px;
+}
+
+img {
+    
+    filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #fff);
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: -150px;
+}
+
+img:hover {
+    filter: brightness(128%);
+  }
